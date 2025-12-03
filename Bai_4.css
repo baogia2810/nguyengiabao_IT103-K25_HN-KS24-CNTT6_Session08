@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  width: 250px;
+  border-bottom: 2px solid #f56a6a;
+  margin: 20px 0;
+  padding: 10px 0;
+}
+.container .layer {
+  display: inline-block;
+  width: 40%;
+  position: relative;
+  margin: 20px;
+}
+.icon {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 80px;
+  line-height: 80px;
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  bottom: 5px;
+  transform: rotate(45deg);
+}
+.icon i {
+  transform: rotate(-45deg);
+  color: #f56a6a;
+}
+.card-content {
+  padding: 20px;
+  margin-left: 100px;
+}
+.card-content p {
+  margin: 10px 0;
+  opacity: 0.8;
+}
