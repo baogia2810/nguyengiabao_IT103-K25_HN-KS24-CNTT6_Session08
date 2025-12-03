@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+table {
+  width: 50%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+td {
+  padding: 20px;
+}
+h1 {
+  margin: 15px 0;
+}
+img {
+  width: 100px;
+}
+p {
+  opacity: 0.8;
+  margin: 20px 0;
+}
+button {
+  background-color: transparent;
+  border: 2px solid black;
+  padding: 8px 15px;
+  font-weight: bold;
+}
+td + td {
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
